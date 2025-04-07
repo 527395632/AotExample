@@ -21,6 +21,9 @@
         cp ../CFiles/a.out ./
         ./a.out
 
+# Bash Print:
 ![image](https://github.com/user-attachments/assets/2b33e87c-e288-45c6-8db9-70365bf734aa)
+
+# main.c File
 ![image](https://github.com/user-attachments/assets/ab20bdf9-f83a-4e9f-8209-a988dab500e4)
 
