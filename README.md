@@ -14,19 +14,11 @@
         cd CFiles
         gcc -o a.out main.c -ldl
 
-# 第五步: 运行测试程序
-
-
-# 第三步: 拷贝编译动态库文件 (cp *.so)
+# 第四步: 运行测试程序
         cd ../bin
         cp ../DynamicLibrary1/bin/Release/net8.0/linux-arm64/publish/*.so ./
         cp ../DynamicLibrary2/bin/Release/net8.0/linux-arm64/publish/*.so ./
         cp ../CFiles/a.out ./
         ./a.out
 
-
-
-
-
 ![image](https://github.com/user-attachments/assets/2b33e87c-e288-45c6-8db9-70365bf734aa)
-
