@@ -3,23 +3,30 @@
 
 # 环境: Ubuntu24.04 (ARM64)
 
-# 第一步：进入到AotExample目录 (cd AotExample)
+# 第一步：进入到AotExample目录
+        cd AotExample
+        
 # 第二部: 使用AOT发布
-        ```bash
         dotnet publish DynamicLibrary1 -p:NativeLib=Shared -r linux-arm64 -c Release -p:PublishAot=true
         dotnet publish DynamicLibrary2 -p:NativeLib=Shared -r linux-arm64 -c Release -p:PublishAot=true
 
-# 第三步: 拷贝编译动态库文件 (cp *.so)
-        # cp ./DynamicLibrary1/bin/Release/net8.0/publish/*.so ./bin
-        # cp ./DynamicLibrary2/bin/Release/net8.0/publish/*.so ./bin
-
-
-# 第四步: 编译main.c
+# 第三步: 编译main.c
         cd CFiles
-        gcc -o ../bin/a.out main.c -ldl
+        gcc -o a.out main.c -ldl
 
 # 第五步: 运行测试程序
+
+
+# 第三步: 拷贝编译动态库文件 (cp *.so)
         cd ../bin
+        cp ../DynamicLibrary1/bin/Release/net8.0/linux-arm64/publish/*.so ./
+        cp ../DynamicLibrary2/bin/Release/net8.0/linux-arm64/publish/*.so ./
+        cp ../CFiles/a.out ./
         ./a.out
 
-![image](https://github.com/user-attachments/assets/86d4cab1-198f-4b81-b5c0-15872253fda7)
+
+
+
+
+![image](https://github.com/user-attachments/assets/2b33e87c-e288-45c6-8db9-70365bf734aa)
+
