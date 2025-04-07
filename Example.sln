@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicLibrary1", "DynamicLibrary1\DynamicLibrary1.csproj", "{364988C3-0771-4E69-8854-AC5AC4A35C26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicLibrary2", "DynamicLibrary2\DynamicLibrary2.csproj", "{CAED40D4-A43A-4674-A449-60D3CA3DD18E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{364988C3-0771-4E69-8854-AC5AC4A35C26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{364988C3-0771-4E69-8854-AC5AC4A35C26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{364988C3-0771-4E69-8854-AC5AC4A35C26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{364988C3-0771-4E69-8854-AC5AC4A35C26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAED40D4-A43A-4674-A449-60D3CA3DD18E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAED40D4-A43A-4674-A449-60D3CA3DD18E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAED40D4-A43A-4674-A449-60D3CA3DD18E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAED40D4-A43A-4674-A449-60D3CA3DD18E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFF3CFCC-5819-42EB-801E-88644E41B99D}
+	EndGlobalSection
+EndGlobal
