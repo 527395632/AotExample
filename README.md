@@ -1,4 +1,4 @@
-# 这是一个.NET AOT编译的BUG示例（https://github.com/dotnet/runtime/issues/114193）
+# 这是一个.NET AOT编译的BUG示例: https://github.com/dotnet/runtime/issues/114193
 # 复现步骤如下：
 
 # 环境: Ubuntu24.04 (ARM64)
