@@ -48,7 +48,7 @@ int main()
 	printf("End Execute DynamicLibrary1\n");
 
 	printf("Begin Execute DynamicLibrary2\n");
-	init1();
+	init2();
 	printf("End Execute DynamicLibrary2\n");
 
 
